@@ -30,6 +30,10 @@ button {
     margin-bottom: 20px;
 }
 
+.output h3{
+    margin-bottom: 15px;
+}
+
 .input-box input {
     width: 70%;
     padding: 10px;
@@ -96,4 +100,10 @@ button {
 
 .edit{
     background-color: green;
+}
+
+@media (max-width:768px) {
+    .main-box {
+        width: 90%;
+    }
 }
